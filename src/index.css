@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@font-face {
+    font-family:Azo ;
+    src: url("./assets/font/azo-sans-uber.ttf");
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*  Common components */
+
+
+
+.common_btn {
+    transition: all 0.3s linear;
+    border: 1px solid #FDDA60 !important;
+}
+
+.common_btn:focus,
+.common_btn:hover {
+    -webkit-animation: pulse 1s;
+    animation: pulse 1s;
+    box-shadow: 0 0 0 0.7em transparent;
+    background-color: black  !important;
+    color: #FDDA60 !important;
+}
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 #FDDA60;
+    }
+}
+
