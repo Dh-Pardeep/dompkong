@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0;
     margin: 0;
     list-style-type: none !important;
@@ -6,14 +6,33 @@
     text-decoration: none !important;
 }
 
-.my_container{
+.my_container {
     max-width: 1140px !important;
     padding-left: 12px !important;
     padding-right: 12px !important;
     margin-right: auto !important;
-    margin-left:  auto !important;
+    margin-left: auto !important;
 }
 
-.bg_hero_image{
+.bg_hero_image {
     background-image: url("./assets/image/webp/Hero_section_bg.webp");
+}
+
+.group:hover .Contract path {
+    fill: black;
+}
+
+.group svg path {
+    transition: all 100ms linear;
+}
+
+.group:hover svg path {
+    stroke: black;
+}
+.Slider_1 .slick-track {
+    display: flex !important;
+    align-items: center !important;
+}
+.slick-slide{
+    padding: 10px;
 }

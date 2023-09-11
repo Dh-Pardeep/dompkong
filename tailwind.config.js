@@ -16,7 +16,11 @@ export default {
       'Montserrat':['Montserrat','sans-serif'],
       'Azo':['Azo','sans-serif'],
     },
-    extend: {},
+    extend: {
+      boxShadow: {
+        'Card': '0px 4px 16px 0px #EDDA60',
+      }
+    },
   },
   plugins: [],
 }
