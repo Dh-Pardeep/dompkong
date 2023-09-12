@@ -21,28 +21,35 @@ const Partners = () => {
             {
                 breakpoint: 1400,
                 settings: {
-                    slidesToShow: 4,
+                    slidesToShow: 3,
                     slidesToScroll: 1,
                 }
             },
             {
                 breakpoint: 1200,
                 settings: {
-                    slidesToShow: 3.5,
+                    slidesToShow: 2.5,
+                    slidesToScroll: 1,
+                }
+            },
+            {
+                breakpoint: 991,
+                settings: {
+                    slidesToShow: 2.2,
                     slidesToScroll: 1,
                 }
             },
             {
                 breakpoint: 800,
                 settings: {
-                    slidesToShow: 2.6,
+                    slidesToShow: 1.7,
                     slidesToScroll: 1,
                 }
             },
             {
                 breakpoint: 650,
                 settings: {
-                    slidesToShow: 2,
+                    slidesToShow: 1.5,
                     centerMode: false,
                     slidesToScroll: 1,
                 }
@@ -50,7 +57,7 @@ const Partners = () => {
             {
                 breakpoint: 480,
                 settings: {
-                    slidesToShow: 1.5,
+                    slidesToShow: 1,
                     centerMode: false,
                     slidesToScroll: 1,
                 }
@@ -62,23 +69,58 @@ const Partners = () => {
             <div className="my_container">
                 <h2 className="text-white font-normal text-[42px] sm:text-[46px] md:text-[52px] lg:text-[58px] xl:text-[64px] font-Azo leading-none text-center pt-[120px] pb-[50px]">PARTNERS</h2>
             </div>
-           <div className='Slider_1'>
-           <Slider {...settings}>
-                <div>
-                   <img src={SliderOne} alt="" />
-                </div>                <div>
-                <img src={SliderTwo} alt="" />
-                </div>
-                <div>
-                <img src={SliderThree} alt="" />
-                </div>
-                <div>
-                <img src={SliderFour} alt="" />
-                </div>
-            </Slider>
-           </div>
+            <div className='Slider_1'>
+                <Slider {...settings}>
+                    <div>
+                        <div className='relative'>
+                            <span className='before:absolute before:contents-[*] before:bg-[#FDDA60] before:h-[128px] before:w-[3px] before:rotate-[20deg]   before:right-[40px] before:top-[-40px] before:shadow-[0px_4px_20px_1px] before:shadow-[#FDDA60]'></span>
+                            <img className='cursor-pointer' src={SliderOne} alt="Image" />
+                        </div>
+                    </div>
+                    <div>
+                        <div className='relative'>
+                            <span className='before:absolute before:contents-[*] before:bg-[#FDDA60] before:h-[128px] before:w-[3px] before:rotate-[20deg]   before:right-[40px] before:top-[7px] before:shadow-[0px_4px_20px_1px] before:shadow-[#FDDA60]'></span>
+                            <img className='cursor-pointer' src={SliderTwo} alt="Image" />
+                        </div>
+                    </div>
+                    <div>
+                        <div className='relative'>
+                            <span className='before:absolute before:contents-[*] before:bg-[#FDDA60] before:h-[128px] before:w-[3px] before:rotate-[20deg]   before:right-[40px] before:top-[-20px] before:shadow-[0px_4px_20px_1px] before:shadow-[#FDDA60]'></span>
+                            <img className='cursor-pointer' src={SliderThree} alt="Image" />
+                        </div>
+                    </div>
+                    <div>
+                        <div className='relative'>
+                            <span className='before:absolute before:contents-[*] before:bg-[#FDDA60] before:h-[128px] before:w-[3px] before:rotate-[20deg]   before:right-[40px] before:top-[-20px] before:shadow-[0px_4px_20px_1px] before:shadow-[#FDDA60]'></span>
+                            <img className='cursor-pointer' src={SliderFour} alt="Image" />
+                        </div>
+                    </div>
+                    <div>
+                        <div className='relative'>
+                            <span className='before:absolute before:contents-[*] before:bg-[#FDDA60] before:h-[128px] before:w-[3px] before:rotate-[20deg]   before:right-[40px] before:top-[-40px] before:shadow-[0px_4px_20px_1px] before:shadow-[#FDDA60]'></span>
+                            <img className='cursor-pointer' src={SliderOne} alt="Image" />
+                        </div>
+                    </div>
+                    <div className='relative'>
+                        <span className='before:absolute before:contents-[*] before:bg-[#FDDA60] before:h-[128px] before:w-[3px] before:rotate-[20deg]   before:right-[40px] before:top-[7px] before:shadow-[0px_4px_20px_1px] before:shadow-[#FDDA60]'></span>
+                        <img className='cursor-pointer' src={SliderTwo} alt="Image" />
+                    </div>
+                    <div>
+                        <div className='relative'>
+                            <span className='before:absolute before:contents-[*] before:bg-[#FDDA60] before:h-[128px] before:w-[3px] before:rotate-[20deg]   before:right-[40px] before:top-[-20px] before:shadow-[0px_4px_20px_1px] before:shadow-[#FDDA60]'></span>
+                            <img className='cursor-pointer' src={SliderThree} alt="Image" />
+                        </div>
+                    </div>
+                    <div>
+                        <div className='relative'>
+                            <span className='before:absolute before:contents-[*] before:bg-[#FDDA60] before:h-[128px] before:w-[3px] before:rotate-[20deg]   before:right-[40px] before:top-[-20px] before:shadow-[0px_4px_20px_1px] before:shadow-[#FDDA60]'></span>
+                            <img className='cursor-pointer' src={SliderFour} alt="Image" />
+                        </div>
+                    </div>
+                </Slider>
+            </div>
         </section>
-    )
-}
+    );
+};
 
 export default Partners

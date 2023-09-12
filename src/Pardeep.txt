@@ -23,3 +23,62 @@ const Hero = () => {
 };
 
 export default Hero;
+
+
+
+
+
+<div className='border-[1px] border-solid border-[#FDDA60] shadow-[0px_4px_20px] shadow-[#FDDA60]' ></div>
+                <div className='pt-[23px] pb-[65px] flex justify-between'>
+                    <div>
+                        <h2 className='text-white font-Montserrat text-[24px] font-bold'>Jaylon Schleifer</h2>
+                        <p className='text-white font-Montserrat text-[20px] font-normal opacity-[0.9] pt-[6px]'>Carter Septimus</p>
+                        <img className='rounded-[20px] border-[3px] border-solid border-[#FDDA60] shadow-[0px_4px_20px_1px] shadow-[#FDDA60] mt-[32px]' src={TeamOne} alt="image" />
+                    </div>
+                    <div>
+                        <h2 className='text-white font-Montserrat text-[24px] font-bold'>@Jaylon Schleifer</h2>
+                        <p className='text-white font-Montserrat text-[20px] font-normal opacity-[0.9] pt-[6px] pb-[35px]'>Nearly two decades in Business</p>
+                        <p className='text-white font-Montserrat text-[16px] font-normal opacity-[0.9] max-w-[570px]'>Faucibus risus id libero interdum in nisl nibh risus molestie. Gravida purus mauris nulla duis est eleifend. Suspendisse eu iaculis odio sit. Hac orci massa habitasse congue nulla tristique. </p>
+                        <p className='text-white font-Montserrat text-[16px] font-normal opacity-[0.9] pt-[15px]  max-w-[570px]'>Sem posuere amet, tristique pellentesque quis erat lectus mauris, ultricies. Adipiscing pharetra lectus mauris, mi pharetra magna in tempus nisi. Sed at in nisl feugiat non in amet eu facilisis. </p>
+                        <div className='flex  gap-4 mt-[25px]'>
+                            <Link href='#'><InstagramIconTem /></Link>
+                            <Link href='#'><TwitterIconTeam /></Link>
+                        </div>
+                    </div>
+                </div>
+                <div className='border-[1px] border-solid border-[#FDDA60] shadow-[0px_4px_20px] shadow-[#FDDA60]' ></div>
+                <div className='pt-[23px] pb-[65px] flex justify-between'>
+                    <div>
+                        <h2 className='text-white font-Montserrat text-[24px] font-bold'>Jaylon Schleifer</h2>
+                        <p className='text-white font-Montserrat text-[20px] font-normal opacity-[0.9] pt-[6px]'>Carter Septimus</p>
+                        <img className='rounded-[20px] border-[3px] border-solid border-[#FDDA60] shadow-[0px_4px_20px_1px] shadow-[#FDDA60] mt-[32px]' src={TeamOne} alt="image" />
+                    </div>
+                    <div>
+                        <h2 className='text-white font-Montserrat text-[24px] font-bold'>@Jaylon Schleifer</h2>
+                        <p className='text-white font-Montserrat text-[20px] font-normal opacity-[0.9] pt-[6px] pb-[35px]'>Nearly two decades in Business</p>
+                        <p className='text-white font-Montserrat text-[16px] font-normal opacity-[0.9] max-w-[570px]'>Faucibus risus id libero interdum in nisl nibh risus molestie. Gravida purus mauris nulla duis est eleifend. Suspendisse eu iaculis odio sit. Hac orci massa habitasse congue nulla tristique. </p>
+                        <p className='text-white font-Montserrat text-[16px] font-normal opacity-[0.9] pt-[15px]  max-w-[570px]'>Sem posuere amet, tristique pellentesque quis erat lectus mauris, ultricies. Adipiscing pharetra lectus mauris, mi pharetra magna in tempus nisi. Sed at in nisl feugiat non in amet eu facilisis. </p>
+                        <div className='flex  gap-4 mt-[25px]'>
+                            <a href='#'><InstagramIconTem /></a>
+                            <a href='#'><TwitterIconTeam /></a>
+                        </div>
+                    </div>
+                </div>
+                <div className='border-[1px] border-solid border-[#FDDA60] shadow-[0px_4px_20px] shadow-[#FDDA60]' ></div>
+                <div className='pt-[23px] pb-[65px] flex justify-between'>
+                    <div>
+                        <h2 className='text-white font-Montserrat text-[24px] font-bold'>Jaylon Schleifer</h2>
+                        <p className='text-white font-Montserrat text-[20px] font-normal opacity-[0.9] pt-[6px]'>Carter Septimus</p>
+                        <img className='rounded-[20px] border-[3px] border-solid border-[#FDDA60] shadow-[0px_4px_20px_1px] shadow-[#FDDA60] mt-[32px]' src={TeamOne} alt="image" />
+                    </div>
+                    <div>
+                        <h2 className='text-white font-Montserrat text-[24px] font-bold'>@Jaylon Schleifer</h2>
+                        <p className='text-white font-Montserrat text-[20px] font-normal opacity-[0.9] pt-[6px] pb-[35px]'>Nearly two decades in Business</p>
+                        <p className='text-white font-Montserrat text-[16px] font-normal opacity-[0.9] max-w-[570px]'>Faucibus risus id libero interdum in nisl nibh risus molestie. Gravida purus mauris nulla duis est eleifend. Suspendisse eu iaculis odio sit. Hac orci massa habitasse congue nulla tristique. </p>
+                        <p className='text-white font-Montserrat text-[16px] font-normal opacity-[0.9] pt-[15px]  max-w-[570px]'>Sem posuere amet, tristique pellentesque quis erat lectus mauris, ultricies. Adipiscing pharetra lectus mauris, mi pharetra magna in tempus nisi. Sed at in nisl feugiat non in amet eu facilisis. </p>
+                        <div className='flex  gap-4 mt-[25px]'>
+                            <a href='#'><InstagramIconTem /></a>
+                            <a href='#'><TwitterIconTeam /></a>
+                        </div>
+                    </div>
+                </div>
