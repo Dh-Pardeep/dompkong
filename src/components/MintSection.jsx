@@ -7,17 +7,17 @@ const MintSection = () => {
     function increase() {
         setCount(count + 1);
     };
-
     function decrease() {
-        if (count > 1) {
+        if (count > 0) {
             setCount(count - 1);
         };
     };
-    // if (count > 10) {
-    //     document.getElementById("SpanNone").style.display = "none";
-    // } else if (10 > count) {
-    //     document.getElementById("SpanNone").style.display = "block";
-    // }
+    if (count == 10) {
+        document.getElementById("SpanNone").style.display = "none"
+    } else if (count == 9) {
+        document.getElementById("SpanNone").style.display = "block"
+    }
+
 
     console.log(count);
     return (
@@ -56,9 +56,9 @@ const MintSection = () => {
                             <div className='flex mt-[50px]'>
                                 <button className='px-[31px] pb-[8px] bg-white rounded-[4px] text-[36px] font-extrabold  ' onClick={decrease}>-</button>
                                 <div className='w-full py-[13px] text-white text-center text-[36px] font-extrabold font-Montserrat border-white border-[3px] mx-[12px] rounded-[4px]'>
-                                   <div className='flex flex-row items-center justify-center'>
-                                   <span id='SpanNone'>0</span>{count}
-                                   </div>
+                                    <div className='flex flex-row items-center justify-center'>
+                                        <span id='SpanNone'>0</span>{count}
+                                    </div>
                                 </div>
                                 <button className='px-[24px] pb-[8px] bg-white rounded-[4px] text-[36px] font-extrabold  ' onClick={increase}>+</button>
                             </div>
