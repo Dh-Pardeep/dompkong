@@ -6,16 +6,22 @@ const MyFooter = () => {
         <div className='pb-[56px]'>
             <div className="my_container">
                 <div className='flex justify-center  py-[27px] '>
-                    <FooterTwitter />
-                    <div className='mx-[24px]'>
+                    <div className=' transition-all ease-linear duration-300 hover:translate-y-[-8px]'>
+                        <FooterTwitter />
+                    </div>
+                    <div className='mx-[24px] transition-all ease-linear duration-300 hover:translate-y-[-8px]'>
                         <FooterBoat />
                     </div>
-                    <FooterDimond />
-                    <div className='mx-[24px]'>
+                    <div className=' transition-all ease-linear duration-300 hover:translate-y-[-8px]'>
+                        <FooterDimond />
+                    </div>
+                    <div className='mx-[24px] transition-all ease-linear duration-300 hover:translate-y-[-8px]'>
                         <FooterDiscord />
                     </div>
-                    <FooterMIcon />
-                    <div className='ms-[24px]'>
+                    <div className=' transition-all ease-linear duration-300 hover:translate-y-[-8px]'>
+                        <FooterMIcon />
+                    </div>
+                    <div className='ms-[24px] transition-all ease-linear duration-300 hover:translate-y-[-8px]'>
                         <FooterTelegram />
                     </div>
                 </div>

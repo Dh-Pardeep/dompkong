@@ -67,10 +67,10 @@ const Partners = () => {
     return (
         <section className=''>
             <div className="my_container">
-                <h2 className="text-white font-normal text-[42px] sm:text-[46px] md:text-[52px] lg:text-[58px] xl:text-[64px] font-Azo leading-none text-center pt-[80px] md:pt-[120px] pb-[50px]">PARTNERS</h2>
+                <h2 data-aos="fade-up" data-aos-delay="1700" className="text-white font-normal text-[42px] sm:text-[46px] md:text-[52px] lg:text-[58px] xl:text-[64px] font-Azo leading-none text-center pt-[80px] md:pt-[120px] pb-[50px]">PARTNERS</h2>
             </div>
-            <div className='Slider_1'>
-                <Slider {...settings}>
+            <div className='Slider_1'data-aos="zoom-in" data-aos-delay="1800">
+                <Slider {...settings} >
                     <div>
                         <div className='relative'>
                             <span className='before:absolute before:contents-[*] before:bg-[#FDDA60] before:h-[128px] before:w-[3px] before:rotate-[20deg]   before:right-[40px] before:top-[-40px] before:shadow-[0px_4px_20px_1px] before:shadow-[#FDDA60]'></span>

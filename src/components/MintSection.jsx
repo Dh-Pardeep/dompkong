@@ -24,10 +24,10 @@ const MintSection = () => {
         <section>
             <div className="my_container">
                 <div className='flex items-center flex-col md:flex-row justify-between mt-[100px] md:mt-[180px]'>
-                    <div className='w-full md:w-6/12 '>
+                    <div className='w-full md:w-6/12 ' data-aos="fade-right" data-aos-delay="500">
                         <img className='mx-auto' src={BottelImg} alt="image" />
                     </div>
-                    <div className='w-full md:w-6/12 pt-[50px]'>
+                    <div className='w-full md:w-6/12 pt-[50px]' data-aos="fade-left" data-aos-delay="700">
                         <div className='md:ps-5'>
                             <h2 className="text-white font-normal text-[42px] sm:text-[46px] md:text-[52px] lg:text-[58px] xl:text-[64px] font-Azo leading-none  pb-[50px]">MINT NFT</h2>
                             <div className='flex flex-col sm:flex-row justify-between'>

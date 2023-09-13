@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from "react";
 import HeroSection from '../HeroSection'
 import About from '../About'
 import Utilities from '../Utilities'
@@ -11,12 +11,19 @@ import MyFooter from '../common/MyFooter'
 import MyRoadMap from '../MyRoadMap'
 import BackToTop from '../common/BackToTop'
 import LoaderHome from '../common/LoaderHome'
-
+import Aos from "aos";
+import "aos/dist/aos.css";
 const Homepage = () => {
+  useEffect(() => {
+    Aos.init({
+      duration: 1000,
+      once: true,
+    });
+  }, [])
     return (
-        <div  className='bg-black relative z-[1000]'>
+        <div  className='bg-black relative z-[1000] overflow-hidden'>
             <BackToTop/>
-            <LoaderHome/>
+            {/* <LoaderHome/> */}
             <HeroSection />
             <About />
             <Utilities />

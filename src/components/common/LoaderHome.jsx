@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Preloader_img from '../../assets/image/png/Thekong.png'
+import Preloader_img from '../../assets/image/png/preloader.png'
 function LoaderHome() {
   const [loder, setloader] = useState(true);
   useEffect(() => {
@@ -23,9 +23,7 @@ function LoaderHome() {
         >
           <div className="flex justify-center">
             <div className=" relative flex justify-center items-center">
-            <h1 className='text-white text-[42px] sm:text-[46px] md:text-[52px] lg:text-[58px] xl:text-[64px]  font-Azo text-center max-w-[539px] ms-auto me-4 leading-[70px] inline-block font-normal '>    WELCOME <div>   TO  <span className='text-[#F1C85D] relative  after:contents-[""] after:bg-[#F1C85D] after:w-full after:left-0 after:bottom-0 after:h-[5px] after:absolute'>DOMPKONG</span></div></h1>
-              <img className="w-4/12 Preloader_img animation_preloader me-auto" src={Preloader_img} alt="" />
-              <div className=' PreloaderShadow position-absolute '></div>
+              <img className="w-9/12 xs:w-6/12 md:w-7/12 Preloader_img animation_preloader mx-auto " src={Preloader_img} alt="" />
             </div>
           </div>
         </section>
