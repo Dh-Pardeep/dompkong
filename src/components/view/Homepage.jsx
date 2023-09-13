@@ -9,10 +9,14 @@ import MeetTheTeam from '../MeetTheTeam'
 import MyAccordion from '../MyAccordion'
 import MyFooter from '../common/MyFooter'
 import MyRoadMap from '../MyRoadMap'
+import BackToTop from '../common/BackToTop'
+import LoaderHome from '../common/LoaderHome'
 
 const Homepage = () => {
     return (
         <div  className='bg-black relative z-[1000]'>
+            <BackToTop/>
+            <LoaderHome/>
             <HeroSection />
             <About />
             <Utilities />
