@@ -22,22 +22,22 @@ const HeroSection = () => {
                 </div>
                 <div className='flex justify-center  py-[38px]' data-aos="zoom-in" data-aos-delay="3000">
                     <div className='transition-all ease-linear duration-300 hover:translate-y-[-5px]'>
-                        <TwitterIcon />
+                      <a href="https://twitter.com/" target='_blank'>  <TwitterIcon /></a>
                     </div>
                     <div className='mx-[24px] transition-all ease-linear duration-300 hover:translate-y-[-5px]'>
-                        <BoatIcon />
+                        <a href="https://www.boat-lifestyle.com/account/login" target='_blank'><BoatIcon /></a>
                     </div>
                     <div className='transition-all ease-linear duration-300 hover:translate-y-[-5px]'>
-                        <DimondIcon />
+                        <a href="https://www.google.co.in/" target='_blank'><DimondIcon /></a>
                     </div> 
                     <div className='mx-[24px] transition-all ease-linear duration-300 hover:translate-y-[-5px]'>
-                        <DiscordIcon />
+                     <a href="https://discord.com/" target='_blank'>   <DiscordIcon /></a>
                     </div>
                     <div className='transition-all ease-linear duration-300 hover:translate-y-[-5px]'>
-                        <MIcon />
+                      <a href="https://www.google.co.in/" target='_blank'>  <MIcon /></a>
                     </div>
                     <div className='ms-[24px] transition-all ease-linear duration-300 hover:translate-y-[-5px]'>
-                        <TelegramIcon />
+                      <a href="https://telegram.org/" target='_blank'>  <TelegramIcon /></a>
                     </div>
                 </div>
                 <div className='text-center 'data-aos="zoom-out-up" data-aos-delay="3000"   >

@@ -7,22 +7,22 @@ const MyFooter = () => {
             <div className="my_container">
                 <div className='flex justify-center  py-[27px] '>
                     <div className=' transition-all ease-linear duration-300 hover:translate-y-[-8px]'>
-                        <FooterTwitter />
+                        <a href="https://twitter.com/" target='_blank'><FooterTwitter /></a>
                     </div>
                     <div className='mx-[24px] transition-all ease-linear duration-300 hover:translate-y-[-8px]'>
-                        <FooterBoat />
+                       <a href="https://www.boat-lifestyle.com/account/login" target='_blank'> <FooterBoat /></a>
                     </div>
                     <div className=' transition-all ease-linear duration-300 hover:translate-y-[-8px]'>
-                        <FooterDimond />
+                        <a href="https://www.google.co.in/" target='_blank'><FooterDimond /></a>
                     </div>
                     <div className='mx-[24px] transition-all ease-linear duration-300 hover:translate-y-[-8px]'>
-                        <FooterDiscord />
+                       <a href="https://discord.com/" target='_blank'> <FooterDiscord /></a>
                     </div>
                     <div className=' transition-all ease-linear duration-300 hover:translate-y-[-8px]'>
-                        <FooterMIcon />
+                        <a href="https://www.google.co.in/" target='_blank'><FooterMIcon /></a>
                     </div>
                     <div className='ms-[24px] transition-all ease-linear duration-300 hover:translate-y-[-8px]'>
-                        <FooterTelegram />
+                        <a href="https://telegram.org/" target='_blank'><FooterTelegram /></a>
                     </div>
                 </div>
             </div>

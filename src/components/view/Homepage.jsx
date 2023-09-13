@@ -23,7 +23,7 @@ const Homepage = () => {
     return (
         <div  className='bg-black relative z-[1000] overflow-hidden'>
             <BackToTop/>
-            {/* <LoaderHome/> */}
+            <LoaderHome/>
             <HeroSection />
             <About />
             <Utilities />
