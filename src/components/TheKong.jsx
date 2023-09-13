@@ -118,16 +118,16 @@ const TheKong = () => {
         <section>
             <div className='relative  pb-[140px] hidden lg:block'>
                 <div className='blur-[364px]  bg-[#FDDA60] w-[364px] h-[364px]  absolute top-[40%]  start-[42%]'></div>
-                <img className='border-[4px] lg:w-[155px] xl:w-[160px] bg-[#A09E99] border-[#FDDA60] rounded-[8px] shadow-[2px_2px_15px] shadow-[#FDDA60]   absolute top-0 start-0 xl:start-0' src={leftOne} alt="Image" />
-                <img className='border-[4px] lg:w-[155px] xl:w-[160px] bg-[#B63D45] border-[#FDDA60] rounded-[8px] shadow-[2px_2px_15px] shadow-[#FDDA60]  absolute top-[25%] translate-y-[-25%] start-0 xl:start-[5%]' src={leftTwo} alt="Image" />
-                <img className='border-[4px] lg:w-[155px] xl:w-[160px] bg-[#292424] border-[#FDDA60] rounded-[8px] shadow-[2px_2px_15px] shadow-[#FDDA60]  absolute top-[50%] translate-y-[-50%] start-0 xl:start-[10%]' src={leftThree} alt="Image" />
-                <img className='border-[4px] lg:w-[155px] xl:w-[160px] bg-[#6C436B] border-[#FDDA60] rounded-[8px] shadow-[2px_2px_15px] shadow-[#FDDA60]  absolute top-[75%] translate-y-[-75%] start-0 xl:start-[5%]' src={leftFour} alt="Image" />
-                <img className='border-[4px] lg:w-[155px] xl:w-[160px] bg-[#403E50] border-[#FDDA60] rounded-[8px] shadow-[2px_2px_15px] shadow-[#FDDA60]  absolute bottom-0 start-0 xl:start-0' src={leftFive} alt="Image" />
-                <img className='border-[4px] lg:w-[155px] xl:w-[160px] bg-[#57515F] border-[#FDDA60] rounded-[8px] shadow-[2px_2px_15px] shadow-[#FDDA60]  absolute top-0 end-0 xl:end-0' src={RightOne} alt="Image" />
-                <img className='border-[4px] lg:w-[155px] xl:w-[160px] bg-[#6C436B] border-[#FDDA60] rounded-[8px] shadow-[2px_2px_15px] shadow-[#FDDA60]  absolute top-[25%] translate-y-[-25%] end-0 xl:end-[5%]' src={RightTwo} alt="Image" />
-                <img className='border-[4px] lg:w-[155px] xl:w-[160px] bg-[#4A644F] border-[#FDDA60] rounded-[8px] shadow-[2px_2px_15px] shadow-[#FDDA60]  absolute top-[50%] translate-y-[-50%] end-0 xl:end-[10%]' src={RightThree} alt="Image" />
-                <img className='border-[4px] lg:w-[155px] xl:w-[160px] bg-[#45436C] border-[#FDDA60] rounded-[8px] shadow-[2px_2px_15px] shadow-[#FDDA60]  absolute top-[75%] translate-y-[-75%] end-0 xl:end-[5%]' src={RightFour} alt="Image" />
-                <img className='border-[4px] lg:w-[155px] xl:w-[160px] bg-[#5F5451] border-[#FDDA60] rounded-[8px] shadow-[2px_2px_15px] shadow-[#FDDA60]  absolute bottom-0 end-0 xl:end-0' src={RightFive} alt="Image" />
+                <img className='border-[4px] hover:scale-110 cursor-pointer transition-all duration-300 ease-in-out lg:w-[155px] xl:w-[160px] bg-[#A09E99] border-[#FDDA60] rounded-[8px] hover:shadow-[2px_2px_15px] hover:shadow-[#FDDA60]   absolute top-0 start-0 xl:start-0' src={leftOne} alt="Image" />
+                <img className='border-[4px] hover:scale-110 cursor-pointer transition-all duration-300 ease-in-out lg:w-[155px] xl:w-[160px] bg-[#B63D45] border-[#FDDA60] rounded-[8px] hover:shadow-[2px_2px_15px] hover:shadow-[#FDDA60]  absolute top-[25%] translate-y-[-25%] start-0 xl:start-[5%]' src={leftTwo} alt="Image" />
+                <img className='border-[4px] hover:scale-110 cursor-pointer transition-all duration-300 ease-in-out lg:w-[155px] xl:w-[160px] bg-[#292424] border-[#FDDA60] rounded-[8px] hover:shadow-[2px_2px_15px] hover:shadow-[#FDDA60]  absolute top-[50%] translate-y-[-50%] start-0 xl:start-[10%]' src={leftThree} alt="Image" />
+                <img className='border-[4px] hover:scale-110 cursor-pointer transition-all duration-300 ease-in-out lg:w-[155px] xl:w-[160px] bg-[#6C436B] border-[#FDDA60] rounded-[8px] hover:shadow-[2px_2px_15px] hover:shadow-[#FDDA60]  absolute top-[75%] translate-y-[-75%] start-0 xl:start-[5%]' src={leftFour} alt="Image" />
+                <img className='border-[4px] hover:scale-110 cursor-pointer transition-all duration-300 ease-in-out lg:w-[155px] xl:w-[160px] bg-[#403E50] border-[#FDDA60] rounded-[8px] hover:shadow-[2px_2px_15px] hover:shadow-[#FDDA60]  absolute bottom-0 start-0 xl:start-0' src={leftFive} alt="Image" />
+                <img className='border-[4px] hover:scale-110 cursor-pointer transition-all duration-300 ease-in-out lg:w-[155px] xl:w-[160px] bg-[#57515F] border-[#FDDA60] rounded-[8px] hover:shadow-[2px_2px_15px] hover:shadow-[#FDDA60]  absolute top-0 end-0 xl:end-0' src={RightOne} alt="Image" />
+                <img className='border-[4px] hover:scale-110 cursor-pointer transition-all duration-300 ease-in-out lg:w-[155px] xl:w-[160px] bg-[#6C436B] border-[#FDDA60] rounded-[8px] hover:shadow-[2px_2px_15px] hover:shadow-[#FDDA60]  absolute top-[25%] translate-y-[-25%] end-0 xl:end-[5%]' src={RightTwo} alt="Image" />
+                <img className='border-[4px] hover:scale-110 cursor-pointer transition-all duration-300 ease-in-out lg:w-[155px] xl:w-[160px] bg-[#4A644F] border-[#FDDA60] rounded-[8px] hover:shadow-[2px_2px_15px] hover:shadow-[#FDDA60]  absolute top-[50%] translate-y-[-50%] end-0 xl:end-[10%]' src={RightThree} alt="Image" />
+                <img className='border-[4px] hover:scale-110 cursor-pointer transition-all duration-300 ease-in-out lg:w-[155px] xl:w-[160px] bg-[#45436C] border-[#FDDA60] rounded-[8px] hover:shadow-[2px_2px_15px] hover:shadow-[#FDDA60]  absolute top-[75%] translate-y-[-75%] end-0 xl:end-[5%]' src={RightFour} alt="Image" />
+                <img className='border-[4px] hover:scale-110 cursor-pointer transition-all duration-300 ease-in-out lg:w-[155px] xl:w-[160px] bg-[#5F5451] border-[#FDDA60] rounded-[8px] hover:shadow-[2px_2px_15px] hover:shadow-[#FDDA60]  absolute bottom-0 end-0 xl:end-0' src={RightFive} alt="Image" />
                 <div className="my_container">
                     <h2 className="text-white font-normal text-[42px] sm:text-[46px] md:text-[52px] lg:text-[58px] xl:text-[64px] font-Azo leading-none text-center ]">THE KONG</h2>
                     <img className='mx-auto relative lg:w-[670px] xl:w-[720px]  xl:-top-[35px]' src={TheKongImg} alt="The KOng" />
@@ -138,34 +138,34 @@ const TheKong = () => {
                 <h2 className="text-white font-normal text-[42px] sm:text-[46px] md:text-[52px] lg:text-[58px] xl:text-[64px] font-Azo leading-none text-center ]">THE KONG</h2>
                 <Slider {...settings} className='pt-[50px]'>
                     <div>
-                        <img className='border-[4px]  w-full bg-[#A09E99] border-[#FDDA60] rounded-[8px] shadow-[2px_2px_15px] shadow-[#FDDA60]' src={leftOne} alt="Image" />
+                        <img className='border-[4px] hover:scale-110 cursor-pointer transition-all duration-300 ease-in-out  w-full bg-[#A09E99] border-[#FDDA60] rounded-[8px] hover:shadow-[2px_2px_15px] hover:shadow-[#FDDA60]' src={leftOne} alt="Image" />
                     </div>
                     <div>
-                        <img className='border-[4px]  w-full bg-[#B63D45] border-[#FDDA60] rounded-[8px] shadow-[2px_2px_15px] shadow-[#FDDA60]  start-0 xl:start-[5%]' src={leftTwo} alt="Image" />
+                        <img className='border-[4px] hover:scale-110 cursor-pointer transition-all duration-300 ease-in-out  w-full bg-[#B63D45] border-[#FDDA60] rounded-[8px] hover:shadow-[2px_2px_15px] hover:shadow-[#FDDA60]  start-0 xl:start-[5%]' src={leftTwo} alt="Image" />
                     </div>
                     <div>
-                        <img className='border-[4px]  w-full bg-[#292424] border-[#FDDA60] rounded-[8px] shadow-[2px_2px_15px] shadow-[#FDDA60]  start-0 xl:start-[10%]' src={leftThree} alt="Image" />
+                        <img className='border-[4px] hover:scale-110 cursor-pointer transition-all duration-300 ease-in-out  w-full bg-[#292424] border-[#FDDA60] rounded-[8px] hover:shadow-[2px_2px_15px] hover:shadow-[#FDDA60]  start-0 xl:start-[10%]' src={leftThree} alt="Image" />
                     </div>
                     <div>
-                        <img className='border-[4px]  w-full bg-[#6C436B] border-[#FDDA60] rounded-[8px] shadow-[2px_2px_15px] shadow-[#FDDA60]  start-0 xl:start-[5%]' src={leftFour} alt="Image" />
+                        <img className='border-[4px] hover:scale-110 cursor-pointer transition-all duration-300 ease-in-out  w-full bg-[#6C436B] border-[#FDDA60] rounded-[8px] hover:shadow-[2px_2px_15px] hover:shadow-[#FDDA60]  start-0 xl:start-[5%]' src={leftFour} alt="Image" />
                     </div>
                     <div>
-                        <img className='border-[4px]  w-full bg-[#403E50] border-[#FDDA60] rounded-[8px] shadow-[2px_2px_15px] shadow-[#FDDA60] ' src={leftFive} alt="Image" />
+                        <img className='border-[4px] hover:scale-110 cursor-pointer transition-all duration-300 ease-in-out  w-full bg-[#403E50] border-[#FDDA60] rounded-[8px] hover:shadow-[2px_2px_15px] hover:shadow-[#FDDA60] ' src={leftFive} alt="Image" />
                     </div>
                     <div>
-                        <img className='border-[4px]  w-full bg-[#A09E99] border-[#FDDA60] rounded-[8px] shadow-[2px_2px_15px] shadow-[#FDDA60]' src={leftOne} alt="Image" />
+                        <img className='border-[4px] hover:scale-110 cursor-pointer transition-all duration-300 ease-in-out  w-full bg-[#A09E99] border-[#FDDA60] rounded-[8px] hover:shadow-[2px_2px_15px] hover:shadow-[#FDDA60]' src={leftOne} alt="Image" />
                     </div>
                     <div>
-                        <img className='border-[4px]  w-full bg-[#B63D45] border-[#FDDA60] rounded-[8px] shadow-[2px_2px_15px] shadow-[#FDDA60]  start-0 xl:start-[5%]' src={leftTwo} alt="Image" />
+                        <img className='border-[4px] hover:scale-110 cursor-pointer transition-all duration-300 ease-in-out  w-full bg-[#B63D45] border-[#FDDA60] rounded-[8px] hover:shadow-[2px_2px_15px] hover:shadow-[#FDDA60]  start-0 xl:start-[5%]' src={leftTwo} alt="Image" />
                     </div>
                     <div>
-                        <img className='border-[4px]  w-full bg-[#292424] border-[#FDDA60] rounded-[8px] shadow-[2px_2px_15px] shadow-[#FDDA60]  start-0 xl:start-[10%]' src={leftThree} alt="Image" />
+                        <img className='border-[4px] hover:scale-110 cursor-pointer transition-all duration-300 ease-in-out  w-full bg-[#292424] border-[#FDDA60] rounded-[8px] hover:shadow-[2px_2px_15px] hover:shadow-[#FDDA60]  start-0 xl:start-[10%]' src={leftThree} alt="Image" />
                     </div>
                     <div>
-                        <img className='border-[4px]  w-full bg-[#6C436B] border-[#FDDA60] rounded-[8px] shadow-[2px_2px_15px] shadow-[#FDDA60]  start-0 xl:start-[5%]' src={leftFour} alt="Image" />
+                        <img className='border-[4px] hover:scale-110 cursor-pointer transition-all duration-300 ease-in-out  w-full bg-[#6C436B] border-[#FDDA60] rounded-[8px] hover:shadow-[2px_2px_15px] hover:shadow-[#FDDA60]  start-0 xl:start-[5%]' src={leftFour} alt="Image" />
                     </div>
                     <div>
-                        <img className='border-[4px]  w-full bg-[#403E50] border-[#FDDA60] rounded-[8px] shadow-[2px_2px_15px] shadow-[#FDDA60] ' src={leftFive} alt="Image" />
+                        <img className='border-[4px] hover:scale-110 cursor-pointer transition-all duration-300 ease-in-out  w-full bg-[#403E50] border-[#FDDA60] rounded-[8px] hover:shadow-[2px_2px_15px] hover:shadow-[#FDDA60] ' src={leftFive} alt="Image" />
                     </div>
                 </Slider>
                 <div className="my_container">
@@ -173,34 +173,34 @@ const TheKong = () => {
                 </div>
                 <Slider {...settingsTwo}>
                     <div>
-                        <img className='border-[4px]  w-full bg-[#57515F] border-[#FDDA60] rounded-[8px] shadow-[2px_2px_15px] shadow-[#FDDA60] ' src={RightOne} alt="Image" />
+                        <img className='border-[4px] hover:scale-110 cursor-pointer transition-all duration-300 ease-in-out  w-full bg-[#57515F] border-[#FDDA60] rounded-[8px] hover:shadow-[2px_2px_15px] hover:shadow-[#FDDA60] ' src={RightOne} alt="Image" />
                     </div>
                     <div>
-                        <img className='border-[4px]  w-full bg-[#6C436B] border-[#FDDA60] rounded-[8px] shadow-[2px_2px_15px] shadow-[#FDDA60] ' src={RightTwo} alt="Image" />
+                        <img className='border-[4px] hover:scale-110 cursor-pointer transition-all duration-300 ease-in-out  w-full bg-[#6C436B] border-[#FDDA60] rounded-[8px] hover:shadow-[2px_2px_15px] hover:shadow-[#FDDA60] ' src={RightTwo} alt="Image" />
                     </div>
                     <div>
-                        <img className='border-[4px]  w-full bg-[#4A644F] border-[#FDDA60] rounded-[8px] shadow-[2px_2px_15px] shadow-[#FDDA60] ' src={RightThree} alt="Image" />
+                        <img className='border-[4px] hover:scale-110 cursor-pointer transition-all duration-300 ease-in-out  w-full bg-[#4A644F] border-[#FDDA60] rounded-[8px] hover:shadow-[2px_2px_15px] hover:shadow-[#FDDA60] ' src={RightThree} alt="Image" />
                     </div>
                     <div>
-                        <img className='border-[4px]  w-full bg-[#45436C] border-[#FDDA60] rounded-[8px] shadow-[2px_2px_15px] shadow-[#FDDA60] ' src={RightFour} alt="Image" />
+                        <img className='border-[4px] hover:scale-110 cursor-pointer transition-all duration-300 ease-in-out  w-full bg-[#45436C] border-[#FDDA60] rounded-[8px] hover:shadow-[2px_2px_15px] hover:shadow-[#FDDA60] ' src={RightFour} alt="Image" />
                     </div>
                     <div>
-                        <img className='border-[4px]  w-full bg-[#5F5451] border-[#FDDA60] rounded-[8px] shadow-[2px_2px_15px] shadow-[#FDDA60] ' src={RightFive} alt="Image" />
+                        <img className='border-[4px] hover:scale-110 cursor-pointer transition-all duration-300 ease-in-out  w-full bg-[#5F5451] border-[#FDDA60] rounded-[8px] hover:shadow-[2px_2px_15px] hover:shadow-[#FDDA60] ' src={RightFive} alt="Image" />
                     </div>
                     <div>
-                        <img className='border-[4px]  w-full bg-[#57515F] border-[#FDDA60] rounded-[8px] shadow-[2px_2px_15px] shadow-[#FDDA60] ' src={RightOne} alt="Image" />
+                        <img className='border-[4px] hover:scale-110 cursor-pointer transition-all duration-300 ease-in-out  w-full bg-[#57515F] border-[#FDDA60] rounded-[8px] hover:shadow-[2px_2px_15px] hover:shadow-[#FDDA60] ' src={RightOne} alt="Image" />
                     </div>
                     <div>
-                        <img className='border-[4px]  w-full bg-[#6C436B] border-[#FDDA60] rounded-[8px] shadow-[2px_2px_15px] shadow-[#FDDA60] ' src={RightTwo} alt="Image" />
+                        <img className='border-[4px] hover:scale-110 cursor-pointer transition-all duration-300 ease-in-out  w-full bg-[#6C436B] border-[#FDDA60] rounded-[8px] hover:shadow-[2px_2px_15px] hover:shadow-[#FDDA60] ' src={RightTwo} alt="Image" />
                     </div>
                     <div>
-                        <img className='border-[4px]  w-full bg-[#4A644F] border-[#FDDA60] rounded-[8px] shadow-[2px_2px_15px] shadow-[#FDDA60] ' src={RightThree} alt="Image" />
+                        <img className='border-[4px] hover:scale-110 cursor-pointer transition-all duration-300 ease-in-out  w-full bg-[#4A644F] border-[#FDDA60] rounded-[8px] hover:shadow-[2px_2px_15px] hover:shadow-[#FDDA60] ' src={RightThree} alt="Image" />
                     </div>
                     <div>
-                        <img className='border-[4px]  w-full bg-[#45436C] border-[#FDDA60] rounded-[8px] shadow-[2px_2px_15px] shadow-[#FDDA60] ' src={RightFour} alt="Image" />
+                        <img className='border-[4px] hover:scale-110 cursor-pointer transition-all duration-300 ease-in-out  w-full bg-[#45436C] border-[#FDDA60] rounded-[8px] hover:shadow-[2px_2px_15px] hover:shadow-[#FDDA60] ' src={RightFour} alt="Image" />
                     </div>
                     <div>
-                        <img className='border-[4px]  w-full bg-[#5F5451] border-[#FDDA60] rounded-[8px] shadow-[2px_2px_15px] shadow-[#FDDA60] ' src={RightFive} alt="Image" />
+                        <img className='border-[4px] hover:scale-110 cursor-pointer transition-all duration-300 ease-in-out  w-full bg-[#5F5451] border-[#FDDA60] rounded-[8px] hover:shadow-[2px_2px_15px] hover:shadow-[#FDDA60] ' src={RightFive} alt="Image" />
                     </div>
                 </Slider>
             </div>
