@@ -33,22 +33,22 @@ const MintSection = () => {
                             <div className='flex flex-col sm:flex-row justify-between'>
                                 <div >
                                     <div>
-                                        <h3 className='text-white font-Montserrat xl:text-[36px] lg:text-[32px] md:text-[28px] text-[24px]  font-extrabold'>9999</h3>
-                                        <h4 className='text-white font-Montserrat xl:text-base md:text-[14px] font-normal'>of 10,000 minted</h4>
+                                        <h3 className='text-white text-center sm:text-start font-Montserrat xl:text-[36px] lg:text-[32px] md:text-[28px] text-[24px]  font-extrabold'>9999</h3>
+                                        <h4 className='text-white text-center sm:text-start font-Montserrat xl:text-base md:text-[14px] font-normal'>of 10,000 minted</h4>
                                     </div>
                                     <div className='mt-[33px]'>
-                                        <h3 className='text-white font-Montserrat xl:text-[36px] lg:text-[32px] md:text-[28px] text-[24px] font-extrabold'>Max 9 </h3>
-                                        <h4 className='text-white font-Montserrat text-base md:text-[14px] font-normal'>NFTs per transaction</h4>
+                                        <h3 className='text-white text-center sm:text-start font-Montserrat xl:text-[36px] lg:text-[32px] md:text-[28px] text-[24px] font-extrabold'>Max 9 </h3>
+                                        <h4 className='text-white text-center sm:text-start font-Montserrat text-base md:text-[14px] font-normal'>NFTs per transaction</h4>
                                     </div>
                                 </div>
                                 <div >
                                     <div className='mt-[33px] sm:mt-0'>
-                                        <h3 className='text-white font-Montserrat xl:text-[36px] lg:text-[32px] md:text-[28px] text-[24px] font-extrabold'>.2 ETH</h3>
-                                        <h4 className='text-white font-Montserrat text-base md:text-[14px] font-normal'>per NFT</h4>
+                                        <h3 className='text-white text-center sm:text-start font-Montserrat xl:text-[36px] lg:text-[32px] md:text-[28px] text-[24px] font-extrabold'>.2 ETH</h3>
+                                        <h4 className='text-white text-center sm:text-start font-Montserrat text-base md:text-[14px] font-normal'>per NFT</h4>
                                     </div>
                                     <div className='mt-[33px]'>
-                                        <h3 className='text-white font-Montserrat xl:text-[36px] lg:text-[32px] md:text-[28px] text-[24px] font-extrabold'>Max 2</h3>
-                                        <h4 className='text-white font-Montserrat text-base md:text-[14px] font-normal'>Copy
+                                        <h3 className='text-white text-center sm:text-start font-Montserrat xl:text-[36px] lg:text-[32px] md:text-[28px] text-[24px] font-extrabold'>Max 2</h3>
+                                        <h4 className='text-white text-center sm:text-start font-Montserrat text-base md:text-[14px] font-normal'>Copy
                                             Transaction per wallet</h4>
                                     </div>
                                 </div>

@@ -19,7 +19,7 @@ const MeetTheTeam = () => {
                                     <p className='text-white font-Montserrat text-[20px] font-normal opacity-[0.9] pt-[6px]'>{data.ParaLeft}</p>
                                     <img className='rounded-[20px] border-[3px] border-solid border-[#FDDA60] shadow-[0px_-3px_28px_-3px] shadow-[#FDDA60] mt-[32px] mx-auto lg:ms-0' src={data.img} alt="image" />
                                 </div>
-                                <div className='text-center lg:text-start 'data-aos="fade-left"data-aos-delay="1200">
+                                <div className='text-center lg:text-start mt-8 lg:mt-0'data-aos="fade-left"data-aos-delay="1200">
                                     <h2 className='text-white font-Montserrat text-[24px] font-bold'>{data.headingRight}</h2>
                                     <p className='text-white font-Montserrat text-[20px] font-normal opacity-[0.9] pt-[6px] pb-[35px]'>{data.ParaRight}</p>
                                     <p className='text-white font-Montserrat text-[16px] font-normal opacity-[0.9]  lg:text-start mx-auto max-w-[570px]'>{data.paragraphOne}</p>

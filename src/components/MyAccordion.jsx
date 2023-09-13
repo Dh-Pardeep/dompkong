@@ -33,8 +33,8 @@ export function MyAccordion() {
         <section className="relative">
             <div className='blur-[146px]  bg-[#FDDA60] w-[132px] h-[132px]  absolute top-[45%]  start-[50%]'></div>
             <div className="my_container ">
-                <h2 data-aos="zoom-in"data-aos-delay="2000"  className="text-white font-normal text-[42px] sm:text-[46px] md:text-[52px] lg:text-[58px] xl:text-[64px] font-Azo leading-none text-center pt-[70px] pb-[50px]">FAQs</h2>
-                <div className=" flex justify-center pb-[200px]  "data-aos="zoom-in"data-aos-delay="2000" >
+                <h2 data-aos="zoom-in"data-aos-delay="2000"  className="text-white font-normal text-[42px] sm:text-[46px] md:text-[52px] lg:text-[58px] xl:text-[64px] font-Azo leading-none text-center md:pt-[70px] pb-[50px]">FAQs</h2>
+                <div className=" flex justify-center pb-[80px] md:pb-[120px]  "data-aos="zoom-in"data-aos-delay="2000" >
                     <div className="w-full lg:w-10/12 text-white">
                         <Accordion open={open === 1} icon={<Icon id={1} open={open} />} className=" pt-[25px]  pb-[13px]">
                             <AccordionHeader className="font-Montserrat md:text-[20px] text-[17px]  lg:text-[22px]  font-bold text-start  xs:max-w-none  " onClick={() => handleOpen(1)}>Arcu faucibus diam feugiat magna etiam.</AccordionHeader>
@@ -79,7 +79,7 @@ export function MyAccordion() {
                         <div className='border-[1px] border-solid border-[#FDDA60] shadow-[0px_4px_20px_0.2px] shadow-[#FDDA60]' ></div>
                         <Accordion open={open === 6} icon={<Icon id={6} open={open} />} className="pt-[25px]  pb-[13px]">
                             <AccordionHeader className="font-Montserrat md:text-[20px] text-[17px] lg:text-[22px]  font-bold text-start  xs:max-w-none  " onClick={() => handleOpen(6)}>
-                                Nunc amet cursus morbi donec.
+                                Nunc amt cusus mobi dnec.
                             </AccordionHeader>
                             <AccordionBody className=" font-normal text-[14px] md:text-base   font-Montserrat">
                                 Arcu faucibus diam feugiat magna etiam. Leo ridiculus mauris, risus vitae luctus volutpat turpis. Nisl, consequat tellus laoreet viverra diam nulla. Etiam vitae, proin Leo at nibh nibh.
