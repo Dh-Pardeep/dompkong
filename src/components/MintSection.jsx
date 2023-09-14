@@ -21,11 +21,14 @@ const MintSection = () => {
 
     console.log(count);
     return (
-        <section>
-            <div className="my_container">
+        <section className='relative mintsectionimage h-full bg-cover bg-no-repeat bg-center'>
+            <div className="header_shadowone relative"></div>
+             <div className='blur-[132px]  bg-[#FDDA60] w-[132px] h-[132px]  absolute top-[0%]  start-[0]'></div>
+             <div className='blur-[132px]  bg-[#FDDA60] w-[132px] h-[132px]  absolute bottom-[45%]  end-[0]'></div>
+            <div className="my_container pb-[50px]">
                 <div className='flex items-center flex-col md:flex-row justify-between mt-[100px] md:mt-[180px]'>
                     <div className='w-full md:w-6/12 ' data-aos="fade-right" data-aos-delay="500">
-                        <img className='mx-auto' src={BottelImg} alt="image" />
+                        <img className='mx-auto pt-[50px]' src={BottelImg} alt="image" />
                     </div>
                     <div className='w-full md:w-6/12 pt-[50px]' data-aos="fade-left" data-aos-delay="700">
                         <div className='md:ps-5'>

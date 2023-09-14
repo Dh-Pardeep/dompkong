@@ -169,7 +169,7 @@ const TheKong = () => {
                     </div>
                 </Slider>
                 <div className="my_container">
-                    <img className='mx-auto relative w-[720px] -top-[35px] sm:-top-[60px] md:-top-[80px] 'data-aos="zoom-in" data-aos-delay="300" src={TheKongImg} alt="The KOng" />
+                    <img className='mx-auto relative w-[720px] -top-[35px] sm:-top-[60px] md:-top-[80px] py-8 lg:py-0'data-aos="zoom-in" data-aos-delay="300" src={TheKongImg} alt="The KOng" />
                 </div>
                 <Slider {...settingsTwo}>
                     <div>

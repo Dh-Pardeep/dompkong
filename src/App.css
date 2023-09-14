@@ -17,6 +17,11 @@
 .bg_hero_image {
     background-image: url("./assets/image/webp/Hero_section_bg.webp");
 }
+.mintsectionimage{
+    background-image: url("./assets//image//png//Mintsectionimage.png");
+    position: relative;
+    z-index: -10;
+}
 
 .group:hover .Contract path {
     fill: black;
@@ -84,6 +89,16 @@
     left: 0%;
     position: absolute;
     bottom: -167px;
+    width: 100%;
+    z-index: 6;
+}
+.header_shadowone::after {
+    background: linear-gradient(181deg, #0A0A0A 0%, rgba(10, 10, 10, 0.00) 100%);
+    content: "";
+    height: 110px;
+    left: 0%;
+    position: absolute;
+    top: -50px;
     width: 100%;
     z-index: 6;
 }
