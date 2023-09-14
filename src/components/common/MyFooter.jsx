@@ -3,7 +3,8 @@ import { FooterBoat, FooterDimond, FooterDiscord, FooterMIcon, FooterTelegram, F
 
 const MyFooter = () => {
     return (
-        <div className='pb-[56px]'>
+        <div className='pb-[56px] relative'>
+            <div className='blur-[132px]  bg-[#FDDA60] w-[132px] h-[132px]  absolute bottom-[45%]  start-[0]'></div>
             <div className="my_container">
                 <div className='flex justify-center  py-[27px] '>
                     <div className=' transition-all ease-linear duration-300 hover:translate-y-[-8px]'>

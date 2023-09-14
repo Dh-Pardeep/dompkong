@@ -77,8 +77,16 @@
 
 }
 
-
-
+.header_shadow::after {
+    background: linear-gradient(182deg, #0A0A0A 0%, rgba(10, 10, 10, 0.00) 100%);
+    content: "";
+    height: 190px;
+    left: 0%;
+    position: absolute;
+    bottom: -167px;
+    width: 100%;
+    z-index: 6;
+}
 
 .headerslider {
     overflow: hidden;

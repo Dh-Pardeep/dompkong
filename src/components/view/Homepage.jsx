@@ -7,7 +7,6 @@ import MintSection from '../MintSection'
 import Partners from '../Partners'
 import MeetTheTeam from '../MeetTheTeam'
 import MyAccordion from '../MyAccordion'
-import MyFooter from '../common/MyFooter'
 import MyRoadMap from '../MyRoadMap'
 import BackToTop from '../common/BackToTop'
 import LoaderHome from '../common/LoaderHome'
@@ -33,7 +32,6 @@ const Homepage = () => {
             <Partners />
             <MeetTheTeam />
             <MyAccordion/>
-            <MyFooter/>
         </div>
     )
 }
