@@ -117,7 +117,7 @@ const TheKong = () => {
     return (
         <section>
             <div className='relative mx-3  pb-[140px] hidden lg:block' >
-                <div className='blur-[364px]  bg-[#FDDA60] w-[364px] h-[364px]  absolute top-[40%]  start-[42%]'></div>
+                <div className='blur-[220px]  bg-[#FDDA60] w-[350px] h-[300px]  absolute top-[40%]  start-[42%]'></div>
                 <img  className='border-[4px] hover:scale-110 cursor-pointer transition-all duration-300 ease-in-out lg:w-[155px] xl:w-[160px] bg-[#A09E99] border-[#FDDA60] rounded-[8px] hover:shadow-[2px_2px_15px] hover:shadow-[#FDDA60]   absolute top-0 start-0 xl:start-0' src={leftOne} alt="Image" />
                 <img  className='border-[4px] hover:scale-110 cursor-pointer transition-all duration-300 ease-in-out lg:w-[155px] xl:w-[160px] bg-[#B63D45] border-[#FDDA60] rounded-[8px] hover:shadow-[2px_2px_15px] hover:shadow-[#FDDA60]  absolute top-[25%] translate-y-[-25%] start-0 xl:start-[5%]' src={leftTwo} alt="Image" />
                 <img  className='border-[4px] hover:scale-110 cursor-pointer transition-all duration-300 ease-in-out lg:w-[155px] xl:w-[160px] bg-[#292424] border-[#FDDA60] rounded-[8px] hover:shadow-[2px_2px_15px] hover:shadow-[#FDDA60]  absolute top-[50%] translate-y-[-50%] start-0 xl:start-[10%]' src={leftThree} alt="Image" />
