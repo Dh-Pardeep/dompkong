@@ -114,43 +114,43 @@
 }
 
 .it1 {
-    transform: rotateY(0deg) translateZ(38vh);
+    transform: rotateY(0deg) translateZ(35vh);
 }
 
 .it2 {
-    transform: rotateY(40deg) translateZ(38vh);
+    transform: rotateY(40deg) translateZ(35vh);
 }
 
 .it3 {
-    transform: rotateY(80deg) translateZ(38vh);
+    transform: rotateY(80deg) translateZ(35vh);
 }
 
 .it4 {
-    transform: rotateY(120deg) translateZ(38vh);
+    transform: rotateY(120deg) translateZ(35vh);
 }
 
 .it5 {
-    transform: rotateY(160deg) translateZ(38vh);
+    transform: rotateY(160deg) translateZ(35vh);
 }
 
 .it6 {
-    transform: rotateY(200deg) translateZ(38vh);
+    transform: rotateY(200deg) translateZ(35vh);
 }
 
 .it7 {
-    transform: rotateY(240deg) translateZ(38vh);
+    transform: rotateY(240deg) translateZ(35vh);
 }
 
 .it8 {
-    transform: rotateY(280deg) translateZ(38vh);
+    transform: rotateY(280deg) translateZ(35vh);
 }
 
 .it9 {
-    transform: rotateY(320deg) translateZ(38vh);
+    transform: rotateY(320deg) translateZ(35vh);
 }
 
 .it10 {
-    transform: rotateY(360deg) translateZ(38vh);
+    transform: rotateY(360deg) translateZ(35vh);
 }
 
 .carousel-item {
