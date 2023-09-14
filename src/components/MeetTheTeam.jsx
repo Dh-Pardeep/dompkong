@@ -11,10 +11,10 @@ const MeetTheTeam = () => {
                 {MeetTheTeamMap.map((data) => {
                     return (
                         <div>
-                            <div className='border-[1px] border-solid border-[#FDDA60] shadow-[0px_4px_20px] shadow-[#FDDA60]' data-aos="zoom-in" data-aos-delay="1900" >
+                            <div className='border-[1px] border-solid border-[#FDDA60] shadow-[0px_4px_20px] shadow-[#FDDA60]' data-aos="zoom-in" data-aos-delay="2000" >
                             </div>
                             <div className='pt-[30px] pb-[65px] flex lg:justify-between flex-col lg:flex-row '>
-                                <div className='text-center lg:text-start' data-aos="fade-right" data-aos-delay="2000"    >
+                                <div className='text-center lg:text-start' data-aos="fade-right" data-aos-delay="2100"    >
                                     <h2 className='text-white font-Montserrat text-[24px] font-bold'>{data.headingLeft}</h2>
                                     <p className='text-white font-Montserrat text-[20px] font-normal opacity-[0.9] pt-[6px]'>{data.ParaLeft}</p>
                                     <div>
