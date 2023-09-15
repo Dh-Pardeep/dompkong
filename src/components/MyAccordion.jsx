@@ -31,7 +31,7 @@ export function MyAccordion() {
 
     return (
         <section className="relative">
-            <div className="header_shadow relative"></div>
+            <div className="header_shadow after:contents-[''] after:h-[190px] after:start-0 after:absolute after:bottom-[-167px] after:w-full after:z-[6] relative"></div>
             <img className="absolute w-full bg-cover bg-no-repeat bg-center h-full" src={FooterImage} alt="" />
             <div className='blur-[132px]  bg-[#FDDA60] w-[132px] h-[132px]  absolute top-[45%]  start-[50%]'></div>
             <div className="my_container ">

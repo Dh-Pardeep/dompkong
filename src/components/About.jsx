@@ -23,9 +23,9 @@ export default class SimpleSlider extends Component {
               <p className="text-white font-normal text-[14px] sm:text-base max-w-[462px]">Turpis et tortor vel pharetra nibh. Mauris nisl sit vitae viverra amet et. Erat nam molestie. Vitae mollis lacus senectus mattis nisl. Porta , adipiscing sed mus diam amet, ac sed tellus. </p>
             </div>
             <div className="flex items-center justify-center w-full lg:w-3/6 mt-[60px]" data-aos="zoom-in" data-aos-delay="500">
-              <div class="headerslider">
+              <div class=" overflow-hidden h-[300px] w-full flex justify-center items-center bg-transparent">
                 <div class="slider-box-ABout">
-                  <div class="carousel flex items-center justify-center">
+                  <div class="carousel cursor-pointer flex items-center justify-center">
                     <div class="carousel-item it1">
                       <img className="w-full" src={AboutIMage2} alt="" />
                     </div>

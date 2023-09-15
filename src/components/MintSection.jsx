@@ -21,8 +21,8 @@ const MintSection = () => {
 
     console.log(count);
     return (
-        <section className='relative mintsectionimage h-full bg-cover bg-no-repeat bg-center'>
-            <div className="header_shadowone relative"></div>
+        <section className='relative mintsectionimage z-[-10] h-full bg-cover bg-no-repeat bg-center'>
+            <div className="header_shadowone after:contents-[''] after:h-[110px] after:start-0 after:absolute after:top-[-15px] after:w-full after:z-[-1] relative"></div>
              <div className='blur-[132px]  bg-[#FDDA60] w-[132px] h-[132px]  absolute top-[0%]  start-[0]'></div>
              <div className='blur-[132px]  bg-[#FDDA60] w-[132px] h-[132px]  absolute bottom-[45%]  end-[0]'></div>
             <div className="my_container pb-[50px]">

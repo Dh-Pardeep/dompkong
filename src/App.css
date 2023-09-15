@@ -19,8 +19,6 @@
 }
 .mintsectionimage{
     background-image: url("./assets//image//png//Mintsectionimage.png");
-    position: relative;
-    z-index: -10;
 }
 
 .group:hover .Contract path {
@@ -84,34 +82,11 @@
 
 .header_shadow::after {
     background: linear-gradient(182deg, #0A0A0A 0%, rgba(10, 10, 10, 0.00) 100%);
-    content: "";
-    height: 190px;
-    left: 0%;
-    position: absolute;
-    bottom: -167px;
-    width: 100%;
-    z-index: 6;
 }
 .header_shadowone::after {
     background: linear-gradient(182deg, #0A0A0A 0%, rgba(10, 10, 10, 0.00) 100%);
-    content: "";
-    height: 110px;
-    left: 0%;
-    position: absolute;
-    top: -15px;
-    width: 100%;
-    z-index: -1;
 }
 
-.headerslider {
-    overflow: hidden;
-    height: 300px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: transparent;
-}
 
 .slider-box-ABout {
     width: 200px;
@@ -196,7 +171,6 @@
 
 .carousel:hover {
     animation-play-state: paused;
-    cursor: pointer;
 }
 
 /* animation rotate */
@@ -211,46 +185,18 @@
 }
 
 .scrollTop {
-    position: fixed;
-    width: 40px;
-    bottom: 20px;
-    padding: 9px;
-    right: 20px;
-    align-items: center;
-    height: 40px !important;
-    justify-content: center;
-    z-index: 1000;
-    cursor: pointer;
     animation: fadeIn 0.3s;
     transition: opacity 0.4s;
-    color: white;
-    background: #FDDA60;
-    border-radius: 50%;
-    transition: all 200ms ease-in-out;
 }
-
-.scrollTop:hover {
-    background: white;
-    color: #FDDA60;
-    box-shadow: 0px 4px 16px 0px #FDDA60;
-}
-
 
 @media (min-width:575.9px) {
-
     .scrollTop {
-        bottom: 30px;
-        width: 45px;
-        right: 30px;
         height: 45px !important;
     }
 }
 
 @media (min-width:767.9px) {
     .scrollTop {
-        bottom: 40px;
-        width: 50px;
-        right: 40px;
         height: 50px !important;
     }
 }
