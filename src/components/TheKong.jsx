@@ -129,13 +129,13 @@ const TheKong = () => {
                 <img className='border-[4px] hover:scale-110 cursor-pointer transition-all duration-300 ease-in-out lg:w-[155px] xl:w-[160px] bg-[#45436C] border-[#FDDA60] rounded-[8px] hover:shadow-[2px_2px_15px] hover:shadow-[#FDDA60]  absolute top-[75%] translate-y-[-75%] end-0 xl:end-[5%]' src={RightFour} alt="Image" />
                 <img className='border-[4px] hover:scale-110 cursor-pointer transition-all duration-300 ease-in-out lg:w-[155px] xl:w-[160px] bg-[#5F5451] border-[#FDDA60] rounded-[8px] hover:shadow-[2px_2px_15px] hover:shadow-[#FDDA60]  absolute bottom-0 end-0 xl:end-0' src={RightFive} alt="Image" />
                 <div className="my_container">
-                    <h2 data-aos="fade-up" data-aos-delay="300" className="text-white font-normal text-[42px] sm:text-[46px] md:text-[52px] lg:text-[58px] xl:text-[64px] font-Azo leading-none text-center ]">THE KONG</h2>
-                    <img className='mx-auto relative lg:w-[670px] xl:w-[720px]  xl:-top-[35px]'data-aos="zoom-in" data-aos-delay="300" src={TheKongImg} alt="The KOng" />
+                    <h2 data-aos="fade-up" data-aos-delay="300" data-aos-easing="linear"  data-aos-duration="1000" className="text-white font-normal text-[42px] sm:text-[46px] md:text-[52px] lg:text-[58px] xl:text-[64px] font-Azo leading-none text-center ]">THE KONG</h2>
+                    <img className='mx-auto relative lg:w-[670px] xl:w-[720px]  xl:-top-[35px]'data-aos="zoom-in" data-aos-delay="300" data-aos-easing="linear"  data-aos-duration="1000" src={TheKongImg} alt="The KOng" />
                 </div>
             </div>
             <div className='relative lg:hidden overflow-hidden'>
                 <div className='blur-[364px]  bg-[#FDDA60] w-[280px] h-[280px]  absolute top-[40%]  start-[42%]'></div>
-                <h2 data-aos="fade-up" data-aos-delay="300" className="text-white font-normal text-[42px] sm:text-[46px] md:text-[52px] lg:text-[58px] xl:text-[64px] font-Azo leading-none text-center ]">THE KONG</h2>
+                <h2 data-aos="fade-up" data-aos-delay="300" data-aos-easing="linear"  data-aos-duration="1000" className="text-white font-normal text-[42px] sm:text-[46px] md:text-[52px] lg:text-[58px] xl:text-[64px] font-Azo leading-none text-center ]">THE KONG</h2>
                 <Slider {...settings} className='pt-[50px]'>
                     <div>
                         <img className='border-[4px] hover:scale-110 cursor-pointer transition-all duration-300 ease-in-out  w-full bg-[#A09E99] border-[#FDDA60] rounded-[8px] hover:shadow-[2px_2px_15px] hover:shadow-[#FDDA60]' src={leftOne} alt="Image" />
@@ -169,7 +169,7 @@ const TheKong = () => {
                     </div>
                 </Slider>
                 <div className="my_container">
-                    <img className='mx-auto relative w-[720px] -top-[35px] sm:-top-[60px] md:-top-[80px] py-8 lg:py-0'data-aos="zoom-in" data-aos-delay="300" src={TheKongImg} alt="The KOng" />
+                    <img className='mx-auto relative w-[720px] -top-[35px] sm:-top-[60px] md:-top-[80px] py-8 lg:py-0'data-aos="zoom-in" data-aos-delay="300" data-aos-easing="linear"  data-aos-duration="1000" src={TheKongImg} alt="The KOng" />
                 </div>
                 <Slider {...settingsTwo}>
                     <div>
