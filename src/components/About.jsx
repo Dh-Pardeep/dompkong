@@ -27,31 +27,31 @@ export default class SimpleSlider extends Component {
                 <div class="slider-box-ABout">
                   <div class="carousel cursor-pointer flex items-center justify-center">
                     <div class="carousel-item it1">
-                      <img className="w-full" src={AboutIMage2} alt="" />
+                      <img className="w-full" src={AboutIMage2} alt="image" />
                     </div>
                     <div class="carousel-item it2">
-                      <img className="w-full" src={AboutIMage} alt="" />
+                      <img className="w-full" src={AboutIMage} alt="image" />
                     </div>
                     <div class="carousel-item it3">
-                      <img className="w-full" src={AboutIMage3} alt="" />
+                      <img className="w-full" src={AboutIMage3} alt="image" />
                     </div>
                     <div class="carousel-item it4">
-                      <img className="w-full" src={AboutIMage2} alt="" />
+                      <img className="w-full" src={AboutIMage2} alt="image" />
                     </div>
                     <div class="carousel-item it5">
-                      <img className="w-full" src={AboutIMage} alt="" />
+                      <img className="w-full" src={AboutIMage} alt="image" />
                     </div>
                     <div class="carousel-item it6">
-                      <img className="w-full" src={AboutIMage3} alt="" />
+                      <img className="w-full" src={AboutIMage3} alt="image" />
                     </div>
                     <div class="carousel-item it7">
-                      <img className="w-full" src={AboutIMage2} alt="" />
+                      <img className="w-full" src={AboutIMage2} alt="image" />
                     </div>
                     <div class="carousel-item it8">
-                      <img className="w-full" src={AboutIMage} alt="" />
+                      <img className="w-full" src={AboutIMage} alt="image" />
                     </div>
                     <div class="carousel-item it9">
-                      <img className="w-full" src={AboutIMage3} alt="" />
+                      <img className="w-full" src={AboutIMage3} alt="image" />
                     </div>
                   </div>
                 </div>

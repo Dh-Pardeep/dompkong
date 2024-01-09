@@ -33,7 +33,7 @@ export function MyAccordion() {
         <section className="relative">
             <div className="header_shadow after:contents-[''] after:h-[190px] after:start-0 after:absolute after:bottom-[-167px] after:w-full after:z-[6] relative"></div>
             <img className="absolute w-full bg-cover bg-no-repeat bg-center h-full" src={FooterImage} alt="" />
-            <div className='blur-[132px]  bg-[#FDDA60] w-[132px] h-[132px]  absolute top-[45%]  start-[50%]'></div>
+            <div className='blur-[132px]  bg-[#FDDA60]  w-[132px] h-[132px]  absolute top-[45%]  start-[50%]'></div>
             <div className="my_container ">
                 <h2 data-aos="zoom-in" data-aos-easing="linear"  data-aos-duration="1500" data-aos-delay="2000"  className="text-white font-normal text-[42px] sm:text-[46px] md:text-[52px] lg:text-[58px] xl:text-[64px] font-Azo leading-none text-center md:pt-[70px] pb-[50px] relative z-20">FAQs</h2>
                 <div className=" flex justify-center pb-[80px] md:pb-[120px] relative z-20 "data-aos="zoom-in" data-aos-easing="linear"  data-aos-duration="1500" data-aos-delay="1800" >
